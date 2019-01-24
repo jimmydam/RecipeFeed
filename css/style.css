@@ -1,0 +1,41 @@
+body{
+	background-color: grey;
+	width: 400px;
+	height: 2850px;
+	border: solid black 2px;
+	
+}
+
+#addRecipeDiv{
+	position: fixed;
+	top: 20px;
+	background-color: violet;
+	width: 400px;
+	height: 100;
+}
+
+#count{
+	position: fixed;
+	top: 40px;
+	left: 300px;
+}
+#feed{
+	position: relative;
+	top: 100px;
+	
+	
+}
+#recipe{
+	font-size: 10px;
+}
+
+#recipeName{
+	background-color: yellow;
+}
+
+#results{
+	height: 300px;
+	width: 350px;
+	
+}
+
