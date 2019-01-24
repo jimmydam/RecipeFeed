@@ -1,0 +1,40 @@
+
+<!--  I Hung Dam, student 000736057, certify that all code submitted is my own work;
+ that I have not copied from any other source. I also certify that I have not allowed
+ my work to be copied by others. If in any instance that an external resource is used,
+ I will cite/and or give credit to the original author. -->
+
+<html>
+
+	<head>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery_3.3.1.js"></script>
+		<script type="text/javascript"  src="js/main.js"></script>
+		
+		<title>What to Eat?</title>	
+		
+	</head>
+	
+	<body onload="on();">
+		
+		<h1 id="title">What to Eat?<h1>
+		<div id="feed">
+			<h2>feed</h2>
+		</div>
+		
+		<div id="addRecipeDiv">
+			<form id="add" action="php/insert.php" method="POST">
+				<label>Name:</label><input type="text" id="name" name="name"><br>
+				<label>Recipe:</label><input type="text" id="recipe" name="recipe"><br>
+				<input type="submit" class="submit">
+				<h3 id="count">00</h3>
+			</form>
+		</div>
+	
+	</body>
+	
+</html>
